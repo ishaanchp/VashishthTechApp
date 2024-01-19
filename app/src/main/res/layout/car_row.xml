@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity = "center"
+        app:cardBackgroundColor="@android:color/transparent"
+        app:cardCornerRadius="12dp"
+        app:cardElevation="8dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:id="@+id/l1row"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gradient1"
+            android:gravity="center_vertical"
+            android:padding="16dp">
+
+            <LinearLayout
+                android:id="@+id/l1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtCarname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Car name"
+                    android:textColor="#E91E63"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtnumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="RC number"
+                    android:textColor="#EC5286"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/txtmodel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Model"
+                    android:textColor="#EC5286"
+                    android:textSize="18sp" />
+                <TextView
+                    android:id="@+id/txtowner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Owner name"
+                    android:textColor="#EC5286"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:id="@+id/txtchassis"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Chassis No"
+                    android:textColor="#EC5286"
+                    android:textSize="18sp"/>
+
+                <TextView
+                    android:id="@+id/txtColor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Color"
+                    android:textColor="#EC5286"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:id="@+id/txtFuel"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Fuel type"
+                    android:textColor="#EC5286"
+                    android:textSize="18sp"/>
+                <TextView
+                    android:id="@+id/txtExpiry"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Expiry"
+                    android:textColor="#EC5286"
+                    android:textSize="18sp"/>
+
+
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
